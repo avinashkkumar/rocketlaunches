@@ -1,3 +1,119 @@
+:root{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar  */
 #navbar{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    padding: 1%;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(180, 180, 180);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#logo img{
+    height: 50px;
+    width:55px;
+    border-radius: 5px;
+    margin: auto;
+}
+#logo {
+    height: 50px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+#navbar ul li{
+    list-style: none ;
+    margin-left: 10px;
+    margin-right : 10px;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+#navbar ul li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    /* color: black; */
+    border-radius: 10px;
+    font-size: 1.7rem;
+    margin-left: 10px;
     
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* sections */
+.section{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+/* info section  */
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(193, 214, 255);
+}
+
+.infow{
+    width: 600px;
+    font-size: 2rem;
+}
+.infoi{
+    width: 450px;
+}
+.infoi img{
+    padding-right: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img1{
+    display: inline;
+}
+
+#infoh{
+    width: 100%;
+    font-size: 4rem;
+}
+
+#infow p{
+    text-align: justify;
 }
