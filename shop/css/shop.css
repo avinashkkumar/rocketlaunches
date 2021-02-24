@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Baloo Bhai 2', cursive;
   }
+  html{
+    scroll-behavior: smooth;
+  }
 
 
   /* navbar  */
