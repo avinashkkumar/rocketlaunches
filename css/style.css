@@ -36,7 +36,7 @@ h1{
 
 #navbar::before{
     content: "";
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(211, 211, 211);
     position: absolute;
     top:0px;
     left:0px;
@@ -76,7 +76,7 @@ h1{
 #navbar ul li a{
     padding-left: 10px;
     padding-right: 10px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-decoration: none;
     display: block;
     /* color: black; */
@@ -199,8 +199,232 @@ h1{
     align-content: center;
 }
 
-.osr tr, th, td{
+.osr, .srth , .srd1 {
     border: solid black 2px;
+    border-collapse: collapse;
+}
+
+.srd1{
+    text-align: center;
+}
+
+.srtr:nth-child(even){
+    background-color: rgba(255,255,255,0.4);
+    
+}
+/* faq */
+.faq{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 222, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:2%;
+}
+.cnt{
+    text-align: center;
+}
+
+#panel,
+#flip {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel2,
+#flip2 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel2 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel3,
+#flip3 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel3 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel4,
+#flip4 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel4 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel5,
+#flip5 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel5 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel6,
+#flip6 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel6 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel7,
+#flip7 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel7 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel8,
+#flip8 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel8 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel9,
+#flip9 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel9 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+#panel10,
+#flip10 {
+    /* padding: ; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* border: solid 1px; */
+    padding: 12px 12px;
+
+}
+
+#panel10 {
+    /* padding:; */
+    display: none;
+    padding: 12px 12px;
+}
+
+.parent {
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.f1 {
+    font-size: 1.5rem;
+}
+.qs{
+    background-color: rgba(255, 255, 255, 0.829);
+}
+.as{
+    background-color: #fff;
+}
+
+/* footer */
+#footer{
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding:2%;
+    margin:2%;
+}
+.fof{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: rgba(255,255,255,0.4);
+}
+.sm{
+    margin: 10px;
+    padding-left: 2%;
+}
+.sm img{
+    width: 30px;
+}
+.nm{
+    margin: none;
 }
 
 /* mobile optimisation */
@@ -213,10 +437,32 @@ h1{
     .pslv{
         flex-wrap: wrap;
     }
+    .r2{
+        font-size: 1.5rem;
+    }
+    .r3{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width:600px){
     #logo{
         display: none;
+    }
+    h1{
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    .osr{
+        font-size: 1rem;
+    }
+    #navbar ul li a{
+        font-size: 1.2rem;
+    }
+    #navbar ul li a{
+        margin: 0px;
     }
 }
